@@ -6,18 +6,7 @@
   [![Version](https://img.shields.io/badge/Version-1.0.0-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios/LNS_Fuel)
   [![Frameworks](https://img.shields.io/badge/Frameworks-ESX%20%7C%20QBCore-6fd2f3?style=for-the-badge)](#-framework-compatibility)
   [![Author](https://img.shields.io/badge/Author-LumaNode%20Studios-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios)
-  [![License](https://img.shields.io/badge/License-MIT-6fd2f3?style=for-the-badge)](LICENSE)
-
-  ---
-
-  <p align="center">
-    <a href="#-features">Features</a> •
-    <a href="#-requirements">Requirements</a> •
-    <a href="#-installation">Installation</a> •
-    <a href="#-database-setup">Database Setup</a> •
-    <a href="#-developer-exports--docs">API & Documentation</a> •
-    <a href="#-configuration-highlights">Configuration</a>
-  </p>
+  [![License](https://img.shields.io/badge/License-GPL--3.0-6fd2f3?style=for-the-badge)](LICENSE)
 </div>
 
 ---
