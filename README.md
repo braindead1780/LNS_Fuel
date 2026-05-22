@@ -181,7 +181,7 @@ end)
 
 ## Credits & Acknowledgements
 
-**LNS Fuel** is built upon and heavily modifies the core foundation of **[ox_fuel](https://github.com/overextended/ox_fuel)** by the **[Overextended](https://github.com/overextended)** team. We express our utmost gratitude to them for providing a stellar, highly optimized open-source base that allowed us to build this script.
+**LNS Fuel** is built upon and heavily modifies the core foundation of **[ox_fuel](https://github.com/overextended/ox_fuel)** by the **[Overextended](https://github.com/overextended)** team. We express our utmost gratitude to them for providing a highly optimized open-source base that allowed us to build this script.
 
 ---
 
