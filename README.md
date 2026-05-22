@@ -3,10 +3,8 @@
 
   # LNS Fuel
 
-  ### *Next-Generation Fuel Logistics, Management & Station Ownership System*
-
   [![Version](https://img.shields.io/badge/Version-1.0.0-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios/LNS_Fuel)
-  [![Frameworks](https://img.shields.io/badge/Frameworks-ESX%20%7C%20QBCore%20%7C%20Standalone-6fd2f3?style=for-the-badge)](#-framework-compatibility)
+  [![Frameworks](https://img.shields.io/badge/Frameworks-ESX%20%7C%20QBCore-6fd2f3?style=for-the-badge)](#-framework-compatibility)
   [![Author](https://img.shields.io/badge/Author-LumaNode%20Studios-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios)
   [![License](https://img.shields.io/badge/License-MIT-6fd2f3?style=for-the-badge)](LICENSE)
 
