@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://r2.fivemanage.com/ikenZGXRwE4faTVyko8MZ/image_2026-05-22_230101655.png" alt="LNS Fuel Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);"/>
-
   # LNS Fuel
 
   [![Version](https://img.shields.io/badge/Version-1.0.0-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios/LNS_Fuel)
@@ -8,6 +6,12 @@
   [![Author](https://img.shields.io/badge/Author-LumaNode%20Studios-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios)
   [![License](https://img.shields.io/badge/License-GPL--3.0-6fd2f3?style=for-the-badge)](LICENSE)
 </div>
+
+---
+
+## Preview
+
+<img src="https://r2.fivemanage.com/ikenZGXRwE4faTVyko8MZ/image_2026-05-22_230101655.png" alt="LNS Fuel Banner" width="100%" style="border-radius: 12px; margin-top: 20px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);"/>
 
 ---
 
