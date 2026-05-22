@@ -1,5 +1,5 @@
 <div align="center">
-  # LNS Fuel
+  <h1>LNS Fuel</h1>
 
   [![Version](https://img.shields.io/badge/Version-1.0.0-6fd2f3?style=for-the-badge)](https://github.com/LumaNodeStudios/LNS_Fuel)
   [![Frameworks](https://img.shields.io/badge/Frameworks-ESX%20%7C%20QBCore-6fd2f3?style=for-the-badge)](#-framework-compatibility)
