@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/preview.png" alt="LNS Fuel Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);"/>
+  <img src="https://r2.fivemanage.com/ikenZGXRwE4faTVyko8MZ/image_2026-05-22_230101655.png" alt="LNS Fuel Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);"/>
 
   # LNS Fuel
 
