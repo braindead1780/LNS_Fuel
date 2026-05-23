@@ -143,63 +143,6 @@ for _, res in ipairs(legacyResources) do
     registerCompatibilityExport(res, 'setFuel', SetFuel)
 end
 
-RegisterCommand('testoxfuel', function(source, args)
-    local ped = PlayerPedId()
-    local veh = GetVehiclePedIsIn(ped, false)
-    if not veh or veh == 0 then
-        lib.notify({ type = 'error', description = 'Must be in a vehicle!' })
-        return
-    end
-
-    local setAmount = tonumber(args[1])
-    if setAmount then
-        Entity(veh).state.fuel = setAmount
-        lib.notify({ type = 'info', description = ('ox_fuel: Set fuel to %.1f%%'):format(setAmount) })
-    end
-
-    Wait(100)
-    local fuel = Entity(veh).state.fuel
-    lib.notify({ type = 'success', description = ('ox_fuel: Current fuel is %.1f%%'):format(fuel) })
-end, false)
-
-RegisterCommand('testcdnfuel', function(source, args)
-    local ped = PlayerPedId()
-    local veh = GetVehiclePedIsIn(ped, false)
-    if not veh or veh == 0 then
-        lib.notify({ type = 'error', description = 'Must be in a vehicle!' })
-        return
-    end
-
-    local setAmount = tonumber(args[1])
-    if setAmount then
-        exports['cdn-fuel']:SetFuel(veh, setAmount)
-        lib.notify({ type = 'info', description = ('cdn-fuel: Set fuel to %.1f%%'):format(setAmount) })
-    end
-
-    Wait(100)
-    local fuel = exports['cdn-fuel']:GetFuel(veh)
-    lib.notify({ type = 'success', description = ('cdn-fuel: Current fuel is %.1f%%'):format(fuel) })
-end, false)
-
-RegisterCommand('testlegacyfuel', function(source, args)
-    local ped = PlayerPedId()
-    local veh = GetVehiclePedIsIn(ped, false)
-    if not veh or veh == 0 then
-        lib.notify({ type = 'error', description = 'Must be in a vehicle!' })
-        return
-    end
-
-    local setAmount = tonumber(args[1])
-    if setAmount then
-        exports['LegacyFuel']:SetFuel(veh, setAmount)
-        lib.notify({ type = 'info', description = ('LegacyFuel: Set fuel to %.1f%%'):format(setAmount) })
-    end
-
-    Wait(100)
-    local fuel = exports['LegacyFuel']:GetFuel(veh)
-    lib.notify({ type = 'success', description = ('LegacyFuel: Current fuel is %.1f%%'):format(fuel) })
-end, false)
-
 if Settings.ox_target then 
     require('client.cl_target')
     return 
