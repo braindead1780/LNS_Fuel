@@ -116,6 +116,17 @@ CREATE TABLE IF NOT EXISTS `lns_fuel_employees` (
    ```
 4. Adjust your preferences, prices, consumptions, and station points in [shared/settings.lua](file:///shared/settings.lua).
 
+### Strict State Bags (`sv_stateBagStrictMode`)
+
+LNS Fuel fully supports FiveM's strict state bag mode, which enhances server security by preventing clients from modifying replicated state bags directly. 
+
+To enable strict state bags on your server, add the following convar to your `server.cfg`:
+```cfg
+setr sv_stateBagStrictMode true
+```
+
+The script will automatically detect this convar and securely route vehicle fuel state bag writes through server-side logic.
+
 ---
 
 ## Developer Exports & Docs
